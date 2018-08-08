@@ -1,7 +1,4 @@
-﻿/*
-张宜民 16061235 2018/4/4 
-*/
-using System;
+﻿using System;
 class complex {
     private double Re = 0;
     private double Im = 0;
