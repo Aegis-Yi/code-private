@@ -3,8 +3,12 @@
     "tasks": [
         {
             "label": "build",
-            "command": "dotnet run",
-            "args": [],
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/dotnet/dotnet.csproj"
+            ],
             "problemMatcher": "$msCompile"
         }
     ]
