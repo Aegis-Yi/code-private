@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace dotnet
-{
-    class Program
-    {
-        static void Main(string[] args)
+namespace dotnet {
+    class Program {
+        static void Main ()
         {
-            Console.WriteLine("Hello World!");
+            string a = " ";
+            a = NewMethod();
+            Console.WriteLine(a);
+        }
+
+        private static string NewMethod()
+        {
+            return Console.ReadLine();
         }
     }
 }
