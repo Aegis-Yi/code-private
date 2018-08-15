@@ -132,6 +132,7 @@ class DataTime {
         Console.WriteLine ("{0}.{1}.{2}是星期{3}", this.Year, this.Mouth, this.Day, week);
     }
 }
+
 class Program {
     static void Main () {
         Cub3 C = new Cub3 (1, 2, 3);
@@ -144,6 +145,6 @@ class Program {
         int n = t.GetDate ();
         Console.WriteLine (c);
         a.plus (366);
-        t.Week ();    
+        t.Week ();
     }
 }
