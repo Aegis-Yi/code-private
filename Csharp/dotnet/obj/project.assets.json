@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\Csharp\\dotnet\\dotnet.csproj",
+      "projectUniqueName": "e:\\source\\Csharp\\dotnet\\dotnet.csproj",
       "projectName": "dotnet",
-      "projectPath": "D:\\source\\Csharp\\dotnet\\dotnet.csproj",
+      "projectPath": "e:\\source\\Csharp\\dotnet\\dotnet.csproj",
       "packagesPath": "C:\\Users\\15558\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\Csharp\\dotnet\\obj\\",
+      "outputPath": "e:\\source\\Csharp\\dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
