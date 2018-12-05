@@ -9,3 +9,14 @@ D:\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.AssemblyInfoInputs.cache
 D:\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.AssemblyInfo.cs
 D:\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.dll
 D:\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.pdb
+C:\Users\15558\Documents\source\Csharp\dotnet\bin\Debug\netcoreapp2.1\dotnet.deps.json
+C:\Users\15558\Documents\source\Csharp\dotnet\bin\Debug\netcoreapp2.1\dotnet.runtimeconfig.json
+C:\Users\15558\Documents\source\Csharp\dotnet\bin\Debug\netcoreapp2.1\dotnet.runtimeconfig.dev.json
+C:\Users\15558\Documents\source\Csharp\dotnet\bin\Debug\netcoreapp2.1\dotnet.dll
+C:\Users\15558\Documents\source\Csharp\dotnet\bin\Debug\netcoreapp2.1\dotnet.pdb
+C:\Users\15558\Documents\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.csprojAssemblyReference.cache
+C:\Users\15558\Documents\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.csproj.CoreCompileInputs.cache
+C:\Users\15558\Documents\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.AssemblyInfoInputs.cache
+C:\Users\15558\Documents\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.AssemblyInfo.cs
+C:\Users\15558\Documents\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.dll
+C:\Users\15558\Documents\source\Csharp\dotnet\obj\Debug\netcoreapp2.1\dotnet.pdb
