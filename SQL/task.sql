@@ -1,15 +1,16 @@
+
 SELECT * FROM S WHERE Sage <= 20
 
 SELECT SC.Sno,S.Sname,Cname FROM SC 
-JOIN C ON SC.Cno=C.Cno
-JOIN S ON S.Sno=SC.Sno
-WHERE SC.Sno='16040014'
+    JOIN C ON SC.Cno=C.Cno
+    JOIN S ON S.Sno=SC.Sno
+    WHERE SC.Sno='16040014'
 
 SELECT SC.Sno,Sname,Cname,Cpno,Ccredit,Grade FROM SC 
-JOIN C ON SC.Cno=C.Cno
-JOIN S ON SC.Sno=S.Sno
-WHERE SC.Sno='16040014'
-SELECT AVG(Grade) as AVGGRADE FROM SC WHERE SC.Sno='16040014'
+    JOIN C ON SC.Cno=C.Cno
+    JOIN S ON SC.Sno=S.Sno
+    WHERE SC.Sno='16040014'
+    SELECT AVG(Grade) as AVGGRADE FROM SC WHERE SC.Sno='16040014'
 
 INSERT INTO  SC Select Sno, '7',60 from S where Sdept='EA'
 
@@ -26,7 +27,7 @@ UPDATE S
 
 UPDATE SC
     SET Grade=NULL
-    WHERE Sno IN (SELECT Sname FROM S WHERE Sname='陈景欢')
+    WHERE Sno IN (SELECT Sno FROM S WHERE Sname='陈景欢') AND Cno='4'
 
 UPDATE SC
     SET Grade=1.05*Grade
