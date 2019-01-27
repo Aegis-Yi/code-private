@@ -19,7 +19,7 @@ module.exports = {
         'array-bracket-spacing': [2, 'never'],
         // 在块级作用域外访问块内定义的变量是否报错提示
         'block-scoped-var': 0,
-        // if while function 后面的{必须与if在同一行，java风格。
+        // if while function 后面的{必须与if在同一行，C#风格。
         'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
         // 双峰驼命名格式
         'camelcase': 2,
