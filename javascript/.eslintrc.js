@@ -1,5 +1,4 @@
 module.exports = {
-    "extends":"google",
     'rules': {
         // no-var
         'no-var': 'error',
