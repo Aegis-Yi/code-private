@@ -4,9 +4,12 @@
         "imshow",
         "itchat",
         "matplotlib",
+        "numpy",
         "plt",
         "pyplot",
         "rect",
         "rects"
-    ]
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
 }
