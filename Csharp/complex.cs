@@ -23,7 +23,7 @@ class complex {
         complex c = new complex (RE, IM);
         c.print ();
         return c;
-
+        
     }
     //两个复数相乘
     public complex Mul (complex a) {
