@@ -4,8 +4,6 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Program Files/LLVM/include",
-                "C:/Program Files/LLVM/x86_64-w64-mingw32/include",
                 "C:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
             ],
             "defines": [
@@ -15,8 +13,6 @@
             "browse": {
                 "path": [
                     "C:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-                    "C:/Program Files/LLVM/x86_64-w64-mingw32/include",
-                    "C:/Program Files/LLVM/x86_64-w64-mingw32/lib",
                     "${workspaceRoot}"
                 ]
             },
