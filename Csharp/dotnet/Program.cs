@@ -1,4 +1,5 @@
 ﻿using System;
+using DependencyInjection;
 interface Iop {
     void Test ();
 }
@@ -11,7 +12,11 @@ class op2 : Iop {
 
 class Program {
     static void Main (string[] args) {
-        Iop a = new op2 ();
+        var sc = new SevericeCollection ();
+        sc.AddScoped (typeof (Iop), typeof (op1));
+        var sp = sc.BuildServiceProvider ();
+        //==================================//
+        Iop a = sp.GetSeverice<Iop> ();
         a.Test ();
     }
 }

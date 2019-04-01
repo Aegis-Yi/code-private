@@ -1,10 +1,18 @@
 using System;
+using DependencyInjection;
 interface Iop {
-    void test ();
+    void Test ();
 }
-class op : Iop {
-    public void test () => Console.WriteLine ("hello");
+class op1 : Iop {
+    public void Test () => Console.WriteLine ("hello");
+}
+class op2 : Iop {
+    public void Test () => Console.WriteLine ("world");
 }
 
-op a = new op ();
-a.test();
+var sc = new SevericeCollection ();
+sc.AddScoped (typeof (Iop), typeof (op1));
+var sp = sc.BuildServiceProvider ();
+//==================================//
+Iop a = sp.GetSeverice<Iop> ();
+a.Test ();

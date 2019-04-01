@@ -1,8 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="DependencyInjection" Version="1.2.0" 
+    Path="C:\Users\15558\Documents\source\Csharp\dotnet\obj\Debug\netcoreapp2.2"/>
+  </ItemGroup>
 </Project>
