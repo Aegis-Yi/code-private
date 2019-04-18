@@ -19,8 +19,7 @@ class Program
     static void Main(string[] args)
     {
         var sc = new ServiceCollection();
-        sc.AddScoped(typeof(Iop),
-                     typeof(op1));
+        sc.AddScoped(typeof(Iop),typeof(op1));
         var sp = sc.BuildServiceProvider();
         //==================================//
         Iop a = sp.GetService<Iop>();

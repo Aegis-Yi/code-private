@@ -744,22 +744,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\15558\\Documents\\source\\Csharp\\dotnet\\dotnet.csproj",
+      "projectUniqueName": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\dotnet\\dotnet.csproj",
       "projectName": "dotnet",
-      "projectPath": "C:\\Users\\15558\\Documents\\source\\Csharp\\dotnet\\dotnet.csproj",
+      "projectPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\dotnet\\dotnet.csproj",
       "packagesPath": "C:\\Users\\15558\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\15558\\Documents\\source\\Csharp\\dotnet\\obj\\",
+      "outputPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\15558\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\15558\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
