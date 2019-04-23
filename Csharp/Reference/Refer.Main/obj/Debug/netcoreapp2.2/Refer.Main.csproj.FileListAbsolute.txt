@@ -1,0 +1,11 @@
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\obj\Debug\netcoreapp2.2\Refer.Main.csprojAssemblyReference.cache
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\obj\Debug\netcoreapp2.2\Refer.Main.csproj.CoreCompileInputs.cache
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\obj\Debug\netcoreapp2.2\Refer.Main.AssemblyInfoInputs.cache
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\obj\Debug\netcoreapp2.2\Refer.Main.AssemblyInfo.cs
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\bin\Debug\netcoreapp2.2\Refer.Main.deps.json
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\bin\Debug\netcoreapp2.2\Refer.Main.runtimeconfig.json
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\bin\Debug\netcoreapp2.2\Refer.Main.runtimeconfig.dev.json
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\bin\Debug\netcoreapp2.2\Refer.Main.dll
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\bin\Debug\netcoreapp2.2\Refer.Main.pdb
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\obj\Debug\netcoreapp2.2\Refer.Main.dll
+C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Main\obj\Debug\netcoreapp2.2\Refer.Main.pdb

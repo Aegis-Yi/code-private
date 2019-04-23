@@ -6090,11 +6090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Test\\Demo.Test.csproj",
+      "projectUniqueName": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Test\\Demo.Test.csproj",
       "projectName": "Demo.Test",
-      "projectPath": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Test\\Demo.Test.csproj",
+      "projectPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Test\\Demo.Test.csproj",
       "packagesPath": "C:\\Users\\15558\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Test\\obj\\",
+      "outputPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6113,8 +6113,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj": {
-              "projectPath": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj"
+            "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj": {
+              "projectPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj"
             }
           }
         }
