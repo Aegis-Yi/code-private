@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj": {}
+    "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj": {
+    "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj",
+        "projectUniqueName": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj",
         "projectName": "Demo.Main",
-        "projectPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj",
+        "projectPath": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\Demo.Main.csproj",
         "packagesPath": "C:\\Users\\15558\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\obj\\",
+        "outputPath": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Xunit\\Demo.Main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
