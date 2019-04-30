@@ -1,4 +1,0 @@
-C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Recall\obj\Debug\netcoreapp2.2\Refer.Recall.csprojAssemblyReference.cache
-C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Recall\obj\Debug\netcoreapp2.2\Refer.Recall.csproj.CoreCompileInputs.cache
-C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Recall\obj\Debug\netcoreapp2.2\Refer.Recall.AssemblyInfoInputs.cache
-C:\Users\15558\Documents\code-private\Csharp\Reference\Refer.Recall\obj\Debug\netcoreapp2.2\Refer.Recall.AssemblyInfo.cs
