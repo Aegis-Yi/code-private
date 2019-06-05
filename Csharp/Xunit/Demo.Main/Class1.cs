@@ -23,8 +23,6 @@ public class Deskfan {
             return "work hight.";
         } else {
             return "boom!!!";
-
         }
-
     }
 }

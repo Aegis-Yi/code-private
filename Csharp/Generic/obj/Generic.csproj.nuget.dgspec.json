@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\Generic.csproj": {}
+    "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\Generic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\Generic.csproj": {
+    "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\Generic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\Generic.csproj",
+        "projectUniqueName": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\Generic.csproj",
         "projectName": "Generic",
-        "projectPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\Generic.csproj",
+        "projectPath": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\Generic.csproj",
         "packagesPath": "C:\\Users\\15558\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\obj\\",
+        "outputPath": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\Generic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

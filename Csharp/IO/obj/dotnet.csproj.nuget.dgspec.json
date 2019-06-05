@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\dotnet.csproj": {}
+    "C:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\dotnet.csproj": {}
   },
   "projects": {
-    "c:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\dotnet.csproj": {
+    "C:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\dotnet.csproj",
+        "projectUniqueName": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\dotnet.csproj",
         "projectName": "dotnet",
-        "projectPath": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\dotnet.csproj",
+        "projectPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\dotnet.csproj",
         "packagesPath": "C:\\Users\\15558\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\obj\\",
+        "outputPath": "C:\\Users\\15558\\Documents\\code-private\\Csharp\\IO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
