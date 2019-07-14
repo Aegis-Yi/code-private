@@ -9,13 +9,14 @@ class op1 : Iop {
     public void Test () => Console.WriteLine ("hello");
 }
 class op2 : Iop {
-    public void 1Test () => Console.WriteLine ("world");
+    public void Test () => Console.WriteLine ("world");
 }
 class op {
     private Iop _op;
     public op (Iop Op) => _op = Op;
     public void optest () => _op.Test ();
 }
+
 class Program {
     static void Main (string[] args) {
         var sc = new ServiceCollection ();

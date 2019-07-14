@@ -4,9 +4,7 @@ public interface Ipower {
     int GetPower ();
 }
 public class PowerSupply : Ipower {
-    public int GetPower () {
-        return 100;
-    }
+    public int GetPower() => 100;
 }
 public class Deskfan {
     private Ipower _PowGet;
