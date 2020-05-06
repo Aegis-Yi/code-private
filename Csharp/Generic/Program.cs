@@ -25,6 +25,7 @@ namespace Generic {
     }   
 }
 //*/
+
 /*
 namespace IoGeneric {
     interface IPeople<Tid> {
@@ -46,6 +47,7 @@ namespace IoGeneric {
     }
 }
 //*/
+
 /* 
 namespace ArGeneric {
     class Program {
@@ -70,6 +72,7 @@ namespace ArGeneric {
     }
 } 
 //*/
+
 /* 
 namespace AcGeneric {
     class Program {
@@ -88,6 +91,7 @@ namespace AcGeneric {
     }
 } 
 //*/
+
 /* 
 namespace FuncGeneric {
     class Program {
