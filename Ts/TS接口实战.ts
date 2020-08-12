@@ -1,17 +1,31 @@
-"use strict";
 // @name     typescript学习笔记
 // @author   Aegis-Yi
-class car {
+
+//Typescript接口实战
+
+interface IVechicle{//定义一个交通工具的基接口
+    run(): void;
+}
+
+class car implements IVechicle{//实现接口的run方法
     run() {
         alert(`car is running...`);
     }
 }
-class truck {
+
+class truck implements IVechicle{
     run() {
         alert(`truck is running...`);
     }
 }
-class LinghtTank {
+
+interface IWeapon{//定义一个坦克炮台的基接口
+    fire(): void;
+}
+interface ITank extends IVechicle, IWeapon {//定义一个坦克的基接口
+    ///用多个接口实现接口隔离
+}
+class LinghtTank implements ITank{
     run() {
         alert(`LinghtTank is running...`);
     }
@@ -19,7 +33,8 @@ class LinghtTank {
         alert(`boom!!!`);
     }
 }
-class MidTank {
+
+class MidTank implements ITank{
     run() {
         alert(`MidTank is running...`);
     }
@@ -27,7 +42,8 @@ class MidTank {
         alert(`boom!!!boom!!!`);
     }
 }
-class HeavyTank {
+
+class HeavyTank implements ITank{
     run() {
         alert(`HeavyTank is running...`);
     }
@@ -35,10 +51,12 @@ class HeavyTank {
         alert(`boom!!!boom!!!boom!!!`);
     }
 }
+
 class Driver {
-    drive(vechice) {
+    drive(vechice:IVechicle) {
         vechice.run();
     }
 }
+
 var driver1 = new Driver().drive(new car());
 var driver2 = new Driver().drive(new HeavyTank());
