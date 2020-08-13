@@ -1,44 +1,47 @@
 "use strict";
 // @name     typescript学习笔记
 // @author   Aegis-Yi
-class car {
-    run() {
-        alert(`car is running...`);
+// typescript泛型
+// <summary>
+// 泛型定义 obj<T>
+// </summary>
+function getInfo(value) {
+    return value;
+}
+getInfo("我是张三");
+getInfo(123);
+// <summary>
+// 泛型类
+// </summary>
+class MyClass {
+    constructor() {
+        this.list = [];
+    }
+    add(value) {
+        this.list.push(value);
+    }
+    min() {
+        let minNUM = this.list[0];
+        for (let i of this.list) {
+            if (minNUM > i) {
+                minNUM = i;
+            }
+        }
+        return minNUM;
     }
 }
-class truck {
-    run() {
-        alert(`truck is running...`);
-    }
+let m1 = new MyClass();
+m1.add(2);
+m1.add(3);
+m1.add(1);
+let m2 = new MyClass();
+m2.add("a");
+m2.add("b");
+m2.add("c");
+let getDate = (value) => value;
+getDate("1234");
+function GetData(value) {
+    return value;
 }
-class LinghtTank {
-    run() {
-        alert(`LinghtTank is running...`);
-    }
-    fire() {
-        alert(`boom!!!`);
-    }
-}
-class MidTank {
-    run() {
-        alert(`MidTank is running...`);
-    }
-    fire() {
-        alert(`boom!!!boom!!!`);
-    }
-}
-class HeavyTank {
-    run() {
-        alert(`HeavyTank is running...`);
-    }
-    fire() {
-        alert(`boom!!!boom!!!boom!!!`);
-    }
-}
-class Driver {
-    drive(vechice) {
-        vechice.run();
-    }
-}
-var driver1 = new Driver().drive(new car());
-var driver2 = new Driver().drive(new HeavyTank());
+let myData = GetData;
+myData("2020");

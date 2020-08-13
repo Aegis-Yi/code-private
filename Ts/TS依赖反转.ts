@@ -1,7 +1,7 @@
 // @name     typescript学习笔记
 // @author   Aegis-Yi
 
-// Typescript接口实战
+// Typescript依赖反转
 
 interface IVechicle{// 定义一个交通工具的基接口
     run(): void;

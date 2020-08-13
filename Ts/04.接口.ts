@@ -1,7 +1,7 @@
 // @name     typescript学习笔记
 // @author   Aegis-Yi
 
-//Typescript中的接口
+// Typescript中的接口
 
 // <summary>
 // 属性接口

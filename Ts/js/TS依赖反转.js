@@ -1,12 +1,12 @@
 "use strict";
 // @name     typescript学习笔记
 // @author   Aegis-Yi
-class car {
+class Car {
     run() {
         alert(`car is running...`);
     }
 }
-class truck {
+class Truck {
     run() {
         alert(`truck is running...`);
     }
@@ -40,5 +40,5 @@ class Driver {
         vechice.run();
     }
 }
-var driver1 = new Driver().drive(new car());
-var driver2 = new Driver().drive(new HeavyTank());
+let driver1 = new Driver().drive(new Car());
+let driver2 = new Driver().drive(new HeavyTank());
