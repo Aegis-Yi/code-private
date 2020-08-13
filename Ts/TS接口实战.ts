@@ -1,29 +1,29 @@
 // @name     typescript学习笔记
 // @author   Aegis-Yi
 
-//Typescript接口实战
+// Typescript接口实战
 
-interface IVechicle{//定义一个交通工具的基接口
+interface IVechicle{// 定义一个交通工具的基接口
     run(): void;
 }
 
-class car implements IVechicle{//实现接口的run方法
+class Car implements IVechicle{// 实现接口的run方法
     run() {
         alert(`car is running...`);
     }
 }
 
-class truck implements IVechicle{
+class Truck implements IVechicle{
     run() {
         alert(`truck is running...`);
     }
 }
 
-interface IWeapon{//定义一个坦克炮台的基接口
+interface IWeapon{// 定义一个坦克炮台的基接口
     fire(): void;
 }
-interface ITank extends IVechicle, IWeapon {//定义一个坦克的基接口
-    ///用多个接口实现接口隔离
+interface ITank extends IVechicle, IWeapon {// 定义一个坦克的基接口
+    /// 用多个接口实现接口隔离
 }
 class LinghtTank implements ITank{
     run() {
@@ -52,11 +52,14 @@ class HeavyTank implements ITank{
     }
 }
 
-class Driver {
-    drive(vechice:IVechicle) {
+interface IDriver{  // 定义一个司机的接口
+    drive(vechice: IVechicle): void;
+}
+class Driver implements IDriver {
+    drive(vechice: IVechicle) {
         vechice.run();
     }
 }
 
-var driver1 = new Driver().drive(new car());
-var driver2 = new Driver().drive(new HeavyTank());
+let driver1 = new Driver().drive(new Car());
+let driver2 = new Driver().drive(new HeavyTank());
