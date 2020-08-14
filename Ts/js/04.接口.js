@@ -17,7 +17,7 @@ function printInfo(info) {
 //     secondname: "三",
 //     //thirdname:"可选"
 // })
-var obj = {
+const obj = {
     firstname: "李",
     secondname: "四",
     age: 20

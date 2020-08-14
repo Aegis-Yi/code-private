@@ -1,15 +1,15 @@
 "use strict";
 // @name     typescript学习笔记
 // @author   Aegis-Yi
-//Typescript中的数据类型
-//布尔类型(boolean)
+// Typescript中的数据类型
+// 布尔类型(boolean)
 /*
 
 var a: boolean = true;
 a = false;
 
 //*/
-//数值类型(number)
+// 数值类型(number)
 /*
 
 var a: number = 123;
@@ -17,7 +17,7 @@ a = 3333;
 console.log(a);
 
 //*/
-//字符串类型(srting)
+// 字符串类型(srting)
 /*
 
 var a: string = "你好";
@@ -25,7 +25,7 @@ a = "你好ts!";
 console.log(a);
 
 //*/
-//数组类型(array)
+// 数组类型(array)
 /*
 
 //第一种定义方法
@@ -41,14 +41,14 @@ console.log(arr3);
 console.log(arr4);
 
 //*/
-//元组类型(tuple)
+// 元组类型(tuple)
 /*
 
 var arr: [string, number, boolean] = ["ts", 123, true];
 console.log(arr);
 
 //*/
-//枚举类型(enum)
+// 枚举类型(enum)
 /*
 
 enum flag { 成功 = 1, 失败 = 0 };
@@ -63,7 +63,7 @@ var c: color = color.blue;
 console.log(c);
 
 //*/
-//任意类型(any)
+// 任意类型(any)
 /*
 
 var a: any = "str";
@@ -74,7 +74,7 @@ var obox:any = document.getElementById('box');
 obox.style.color = '#66CCFF';
 
 //*/
-//null和 undefined
+// null和 undefined
 /*
 
 var a: null = null;
@@ -88,7 +88,7 @@ num = 123;
 console.log(num);
 
 //*/
-//void类型
+// void类型
 /*
 
 function run():void | number{
@@ -103,7 +103,7 @@ var a: number = num();
 console.log(a);
 
 //*/
-//nerver类型
+// nerver类型
 /*
 
 var a: never = (() => {

@@ -1,7 +1,7 @@
 "use strict";
 // @name     typescript学习笔记
 // @author   Aegis-Yi
-//Typescript中的函数
+// Typescript中的函数
 // <summary>
 // 函数定义
 // </summary>

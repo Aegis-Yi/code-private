@@ -1,14 +1,14 @@
 "use strict";
 // @name     typescript学习笔记
 // @author   Aegis-Yi
-//Typescript中的类
+// Typescript中的类
 // <summary>
 // 类的定义
 // </summary>
 /*
 class person{
     name: string; //前面省略public
-    
+
     constructor(n: string) { //构造函数 实例化的时候触发方法
         this.name = n;
     }
@@ -51,39 +51,42 @@ class person {
         alert(this.name + "在运动");
     }
 }
-///继承
+/// 继承
 class Aperson extends person {
     constructor(name) {
-        super(name); //...初始化父类的构造函数
+        super(name); // ...初始化父类的构造函数
     }
 }
-var a = new Aperson("赵四");
-//a.run();
-///TS中继承的探讨
+let a = new Aperson("赵四");
+// a.run();
+/// TS中继承的探讨
 class Bperson extends person {
     constructor(name) {
-        super(name); //...初始化父类的构造函数
+        super(name); // ...初始化父类的构造函数
     }
     run() {
-        alert(`${this.name}在跑步`); //...子类重写父类
+        alert(`${this.name}在跑步`); // ...子类重写父类
     }
     work() {
         alert(`${this.name}在工作`);
     }
 }
-var b = new Bperson("李四");
-//b.run();
-//b.work();
-///类里面的修饰符
+const b = new Bperson("李四");
+// b.run();
+// b.work();
+/// 类里面的修饰符
 /*    ...与C#大致相同
 Public
 protected
 private
 */
-///静态属性,静态方法
+/// 静态属性,静态方法
 class Person {
     constructor(name) {
         this.name = name;
+    }
+    static print() {
+        alert(`我是静态方法`);
     }
     run() {
         alert(`${this.name}在运动`);
@@ -91,12 +94,9 @@ class Person {
     work() {
         alert(`${this.name}在工作`);
     }
-    static print() {
-        alert(`我是静态方法`);
-    }
 }
-//Person.print();
-///多态 类似C#
+// Person.print();
+/// 多态 类似C#
 class animal {
     eat() {
         alert(`吃的方法`);
@@ -119,7 +119,7 @@ class dog extends animal {
 new cat().eat();
 new dog().eat();
 new animal().eat(); */
-///抽象 abstract 类似C#
+/// 抽象 abstract 类似C#
 class Animal {
 }
 class Cat extends Animal {
@@ -138,5 +138,5 @@ class Dog extends Animal {
         alert(`汪汪汪`);
     }
 }
-//new Animal();  ///无法实例化抽象类
+// new Animal();  ///无法实例化抽象类
 //*/
