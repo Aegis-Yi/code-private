@@ -68,3 +68,7 @@ function GetData<T>(value: T) {
 let myData: ConfigFj<string> = GetData;
 
 myData("2020");
+
+// <summary>
+// 
+// <summary>

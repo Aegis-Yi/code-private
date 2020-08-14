@@ -10,7 +10,7 @@
 interface fullName {
     firstname: string;
     secondname: string;
-    thirdname?: string;  //可选属性 "?"
+    thirdname?: string;  // 可选属性 "?"
 }
 interface Age extends fullName{
     age: number;
@@ -34,13 +34,13 @@ function printInfo(info: Age) {
 //     //thirdname:"可选"
 // })
 
-var obj = {
+const obj = {
     firstname: "李",
     secondname: "四",
     age: 20
 }
 
-//printInfo(obj);
+// printInfo(obj);
 
 //*/
 
@@ -49,9 +49,7 @@ var obj = {
 // </summary>
 //*
 
-interface encrypt {
-    (key: string, value: string ): string;
-}
+type encrypt = (key: string, value: string) => string;
 
 var md5: encrypt = function (key: string, value: string): string {
     return key + value;
@@ -61,8 +59,8 @@ var sha1: encrypt = function (key: string, value: string): string {
     return key + `---` + value;    
 }
 
-//alert(md5("name", "zhangsan"));
-//alert(sha1("name", "zhangsan"));
+// alert(md5("name", "zhangsan"));
+// alert(sha1("name", "zhangsan"));
 
 //*/
 
