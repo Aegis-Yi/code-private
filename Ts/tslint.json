@@ -567,7 +567,7 @@
          * @has-fixer 支持自动修复
          * @prettier 可交由 prettier 控制
          */
-        "indent": [true, "spaces", 4],
+        "indent": [false, "spaces", 4],
         /**
          * @category maintainability
          * @description 限制换行符为 LF 或 CRLF

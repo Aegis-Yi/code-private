@@ -97,7 +97,7 @@ myData("2020");
     let a = new AticlaCate({
         title: "BOOK",
         desc: "1111",
-        status: "2222"
+        status: "2222",
     });
     let db = new Mysql();
     db.add(a);

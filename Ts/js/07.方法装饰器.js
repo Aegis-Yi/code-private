@@ -13,8 +13,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
         params.prototype.run = () => console.log("我是run方法");
     }
     let HttpClient = class HttpClient {
-        getData() {
-        }
+        getData() { }
     };
     HttpClient = __decorate([
         logClass
@@ -33,8 +32,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
         };
     }
     let HttpClient = class HttpClient {
-        getData() {
-        }
+        getData() { }
     };
     HttpClient = __decorate([
         LogClass("http://www.bilibili.com/api")
@@ -42,7 +40,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     let http = new HttpClient();
     // console.log(http.apiiUrl);
 }
-{ // 修改类中的属性
+{
+    // 修改类中的属性
     function LogClass(params) {
         console.log(params);
         return class extends params {
@@ -70,7 +69,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     let http = new HttpClient();
     // http.getDate();
 }
-{ // 属性装饰器
+{
+    // 属性装饰器
     function LogClass(params) {
         return (target, attr) => {
             console.log(target);
@@ -89,7 +89,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     const http = new HttpClient();
     http.getDate();
 }
-{ // 方法装饰器
+{
+    // 方法装饰器
     function logMethod(params) {
         return (target, methodname, desc) => {
             console.log(target);
@@ -98,9 +99,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
             console.log(desc.value);
             target.url = "http://google.com"; // 修改属性
             target.run = () => {
+                // 添加新方法
                 console.log("runing");
             };
             desc.value = (...args) => {
+                // 修改方法
                 args.map((value) => {
                     return String(value);
                 });

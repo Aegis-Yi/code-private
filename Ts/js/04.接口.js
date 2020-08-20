@@ -20,7 +20,7 @@ function printInfo(info) {
 const obj = {
     firstname: "李",
     secondname: "四",
-    age: 20
+    age: 20,
 };
 var md5 = function (key, value) {
     return key + value;
@@ -30,9 +30,9 @@ var sha1 = function (key, value) {
 };
 var arr1 = ["aaa", "bbb"];
 for (let i of arr1) {
-    //alert(i);
+    // alert(i);
 }
-var arr2 = { name1: '张三', name2: '李四' };
+var arr2 = { name1: "张三", name2: "李四" };
 class dog1 {
     constructor(name) {
         this.name = name;

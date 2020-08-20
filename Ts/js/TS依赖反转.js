@@ -2,6 +2,7 @@
 // @name     typescript学习笔记
 // @author   Aegis-Yi
 class Car {
+    // 实现接口的run方法
     run() {
         alert(`car is running...`);
     }

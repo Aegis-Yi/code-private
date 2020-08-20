@@ -15,62 +15,61 @@
 */
 
 interface IDB<T> {
-    add(info: T): boolean;
-    update(info: T, id: number): boolean;
-    delate(id: number): boolean;
-    get(id: number): any[];
+	add(info: T): boolean;
+	update(info: T, id: number): boolean;
+	delate(id: number): boolean;
+	get(id: number): any[];
 }
 
 // 定义一个操作Mysql的类
 
 class MysqlIDB<T> implements IDB<T> {
-    add(info: T): boolean {
-        throw new Error("Method not implemented.");
-    }
-    update(info: T, id: number): boolean {
-        throw new Error("Method not implemented.");
-    }
-    delate(id: number): boolean {
-        throw new Error("Method not implemented.");
-    }
-    get(id: number): any[] {
-        throw new Error("Method not implemented.");
-    }
-
+	add(info: T): boolean {
+		throw new Error("Method not implemented.");
+	}
+	update(info: T, id: number): boolean {
+		throw new Error("Method not implemented.");
+	}
+	delate(id: number): boolean {
+		throw new Error("Method not implemented.");
+	}
+	get(id: number): any[] {
+		throw new Error("Method not implemented.");
+	}
 }
-class MssqlIDB<T> implements IDB<T>{
-    add(info: T): boolean {
-        throw new Error("Method not implemented.");
-    }
-    update(info: T, id: number): boolean {
-        throw new Error("Method not implemented.");
-    }
-    delate(id: number): boolean {
-        throw new Error("Method not implemented.");
-    }
-    get(id: number): any[] {
-        throw new Error("Method not implemented.");
-    }
+class MssqlIDB<T> implements IDB<T> {
+	add(info: T): boolean {
+		throw new Error("Method not implemented.");
+	}
+	update(info: T, id: number): boolean {
+		throw new Error("Method not implemented.");
+	}
+	delate(id: number): boolean {
+		throw new Error("Method not implemented.");
+	}
+	get(id: number): any[] {
+		throw new Error("Method not implemented.");
+	}
 }
 
 class MongDBIDB<T> implements IDB<T> {
-    add(info: T): boolean {
-        throw new Error("Method not implemented.");
-    }
-    update(info: T, id: number): boolean {
-        throw new Error("Method not implemented.");
-    }
-    delate(id: number): boolean {
-        throw new Error("Method not implemented.");
-    }
-    get(id: number): any[] {
-        throw new Error("Method not implemented.");
-    }
+	add(info: T): boolean {
+		throw new Error("Method not implemented.");
+	}
+	update(info: T, id: number): boolean {
+		throw new Error("Method not implemented.");
+	}
+	delate(id: number): boolean {
+		throw new Error("Method not implemented.");
+	}
+	get(id: number): any[] {
+		throw new Error("Method not implemented.");
+	}
 }
 
 // 操作用户表 定义一个User类和数据表映射
 
 class User {
-    username: String | undefined;
-    psword: String | undefined;
+	username: String | undefined;
+	psword: String | undefined;
 }
