@@ -1,5 +1,5 @@
 ﻿using System;
-/*
+//*
 namespace Generic {
     class Box<TCargo> {
         public TCargo Cargo { get; set; }
