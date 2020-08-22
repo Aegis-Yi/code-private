@@ -82,7 +82,7 @@
          * @ts-only 仅支持 ts 文件
          * @has-fixer 支持自动修复
          */
-        "no-inferrable-types": true,
+        "no-inferrable-types": false,
         /**
          * @category typescript-specific
          * @description 禁止使用 module 来定义命名空间
