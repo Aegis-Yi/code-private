@@ -1,5 +1,5 @@
 {
-    "extends": ["tslint-config-alloy", "tslint-config-prettier"],
+    "extends": ["tslint-config-prettier"],
     "linterOptions": {
         "exclude": ["**/node_modules/**"]
     },
@@ -985,7 +985,7 @@
          * @prettier 可交由 prettier 控制
          */
         "whitespace": [
-            true,
+            false,
             "check-branch",
             "check-decl",
             "check-operator",
