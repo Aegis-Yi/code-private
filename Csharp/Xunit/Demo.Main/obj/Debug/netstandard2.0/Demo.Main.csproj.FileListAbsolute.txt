@@ -1,9 +1,0 @@
-C:\Users\15558\Documents\code-private\Csharp\Xunit\Demo.Main\bin\Debug\netstandard2.0\Demo.Main.deps.json
-C:\Users\15558\Documents\code-private\Csharp\Xunit\Demo.Main\bin\Debug\netstandard2.0\Demo.Main.dll
-C:\Users\15558\Documents\code-private\Csharp\Xunit\Demo.Main\bin\Debug\netstandard2.0\Demo.Main.pdb
-C:\Users\15558\Documents\code-private\Csharp\Xunit\Demo.Main\obj\Debug\netstandard2.0\Demo.Main.csprojAssemblyReference.cache
-C:\Users\15558\Documents\code-private\Csharp\Xunit\Demo.Main\obj\Debug\netstandard2.0\Demo.Main.csproj.CoreCompileInputs.cache
-C:\Users\15558\Documents\code-private\Csharp\Xunit\Demo.Main\obj\Debug\netstandard2.0\Demo.Main.AssemblyInfoInputs.cache
-C:\Users\15558\Documents\code-private\Csharp\Xunit\Demo.Main\obj\Debug\netstandard2.0\Demo.Main.AssemblyInfo.cs
-C:\Users\15558\Documents\code-private\Csharp\Xunit\Demo.Main\obj\Debug\netstandard2.0\Demo.Main.dll
-C:\Users\15558\Documents\code-private\Csharp\Xunit\Demo.Main\obj\Debug\netstandard2.0\Demo.Main.pdb
